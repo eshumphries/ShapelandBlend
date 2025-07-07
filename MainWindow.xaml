@@ -47,15 +47,15 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <Ellipse Margin="61,54,68,75" Stroke="Black" Height="21"/>
-            <Path Data="M62,74.353333 L88.666667,73.686667" Fill="#FFF4F4F5" Margin="60,74,66,75" Stretch="Fill" Stroke="Black"/>
-            <Path Data="M61,75.02 L71.333333,87.686667" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="23" Margin="60,74,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="12"/>
-            <Path Data="M70.333333,94.02 L83,74.02" Fill="#FFF4F4F5" Margin="71,74,66,54" Stretch="Fill" Stroke="Black" d:LayoutOverrides="HorizontalAlignment, VerticalAlignment"/>
-            <Rectangle Height="6" Margin="64,96,72,48" Stroke="Black"/>
-            <Rectangle Margin="73,101,70,24" Stroke="Black"/>
-            <Rectangle Margin="62,101,81,24" Stroke="Black" Width="7"/>
-            <Rectangle Margin="83,74,60,49" Stroke="Black" Width="7"/>
-            <Rectangle Margin="50,50,93,73" Stroke="Black" Width="7" RenderTransformOrigin="0.5,0.5">
+            <Ellipse Margin="31,54,98,75" Stroke="Black" Height="21" Width="21"/>
+            <Path Data="M62,74.353333 L88.666667,73.686667" Fill="#FFF4F4F5" Margin="30,74,0,75" Stretch="Fill" Stroke="Black" HorizontalAlignment="Left" Width="24"/>
+            <Path Data="M61,75.02 L71.333333,87.686667" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="23" Margin="30,74,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="12"/>
+            <Path Data="M70.333333,94.02 L83,74.02" Fill="#FFF4F4F5" Margin="41,74,96,54" Stretch="Fill" Stroke="Black" d:LayoutOverrides="VerticalAlignment"/>
+            <Rectangle Height="6" Margin="34,96,102,48" Stroke="Black" Width="14"/>
+            <Rectangle Margin="43,101,100,24" Stroke="Black" Width="7"/>
+            <Rectangle Margin="32,101,111,24" Stroke="Black" Width="7"/>
+            <Rectangle Margin="53,74,90,49" Stroke="Black" Width="7"/>
+            <Rectangle Margin="20,50,123,73" Stroke="Black" Width="7" RenderTransformOrigin="0.5,0.5">
                 <Rectangle.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -65,8 +65,10 @@
                     </TransformGroup>
                 </Rectangle.RenderTransform>
             </Rectangle>
-            <Rectangle Height="7" Margin="59,48,65,95" Stroke="Black"/>
-            <Rectangle Height="15" Margin="64,34,70,101" Stroke="Black"/>
+            <Rectangle Height="7" Margin="29,48,95,95" Stroke="Black" Width="26"/>
+            <Rectangle Height="15" Margin="34,34,100,101" Stroke="Black" Width="16"/>
         </Grid>
+        <TextBlock Height="53" Margin="65,8,8,90" Text="Please count all the shapes to make sure everything's here.  Thanks much!" TextWrapping="Wrap" FontSize="8"/>
+        <Path Data="M64.149869,33.222326 L55.741876,41.630319" Fill="#FFF4F4F5" Margin="56,33,88,107" Stretch="Fill" Stroke="Black"/>
     </Grid>
 </Window>
