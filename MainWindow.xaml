@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="150" Width="150">
     <Grid Margin="0,0,0,-16" Width="150" Height="150" d:LayoutOverrides="HorizontalAlignment, VerticalAlignment">
+        <Grid x:Name="Extras" Height="Auto" Margin="0,8,-1,23">
+            <TextBlock Height="53" Margin="65,0,9,66" Text="Please count all the shapes to make sure everything's here.  Thanks much!" TextWrapping="Wrap" FontSize="8" d:IsHidden="True"/>
+            <Path Data="M64.149869,33.222326 L55.741876,41.630319" Fill="#FFF4F4F5" Margin="56,25,89,84" Stretch="Fill" Stroke="Black" d:IsHidden="True"/>
+            <Path Data="M0,123.02 L150,124.35333" Fill="#FFF4F4F5" Margin="0,117,0,0" Stretch="Fill" Stroke="Black" d:LayoutOverrides="HorizontalAlignment" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.73"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+        </Grid>
         <Grid x:Name="Start" Margin="0,29,-1,23" d:IsHidden="True">
             <Ellipse Margin="17,26,116,54" Stroke="Black"/>
             <Path Data="M30,68.686667 L53,68.686667" Fill="#FFF4F4F5" Margin="14,43,113,54" Stretch="Fill" Stroke="Black"/>
@@ -26,7 +40,6 @@
             </Rectangle>
             <Rectangle Height="27" Margin="17,70,127,1" Stroke="Black" Width="7"/>
             <Rectangle Height="27" Margin="28,70,116,1" Stroke="Black" Width="7"/>
-            <Path Data="M0.66666667,109.35333 L151,107.68667" Fill="#FFF4F4F5" Margin="0,96,0,0" Stretch="Fill" Stroke="Black" d:LayoutOverrides="HorizontalAlignment"/>
             <Rectangle Margin="74,40,22,1" Stroke="Black"/>
             <Path Data="M67,44.686667 L147.33333,45.353333" Fill="#FFF4F4F5" Margin="62,40,8,57" Stretch="Fill" Stroke="Black" d:LayoutOverrides="HorizontalAlignment"/>
             <Path Data="M61.333333,45.686667 L103.33333,6.3533333" Fill="#FFF4F4F5" Margin="62,0,46,57" Stretch="Fill" Stroke="Black" d:LayoutOverrides="HorizontalAlignment"/>
@@ -36,17 +49,7 @@
             <Rectangle Height="14" Margin="110,46,28,38" Stroke="Black" Width="13" d:LayoutOverrides="VerticalAlignment"/>
             <Ellipse Margin="97,79,50,14" Stroke="Black" Width="4"/>
         </Grid>
-        <Grid x:Name="Mayor">
-            <Path Data="M0,123.02 L150,124.35333" Fill="#FFF4F4F5" Margin="0,125,-1,23" Stretch="Fill" Stroke="Black" d:LayoutOverrides="HorizontalAlignment" RenderTransformOrigin="0.5,0.5">
-                <Path.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="-0.73"/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </Path.RenderTransform>
-            </Path>
+        <Grid x:Name="Mayor" d:IsHidden="True">
             <Ellipse Margin="31,54,98,75" Stroke="Black" Height="21" Width="21"/>
             <Path Data="M62,74.353333 L88.666667,73.686667" Fill="#FFF4F4F5" Margin="30,74,0,75" Stretch="Fill" Stroke="Black" HorizontalAlignment="Left" Width="24"/>
             <Path Data="M61,75.02 L71.333333,87.686667" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="23" Margin="30,74,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="12"/>
@@ -68,7 +71,5 @@
             <Rectangle Height="7" Margin="29,48,95,95" Stroke="Black" Width="26"/>
             <Rectangle Height="15" Margin="34,34,100,101" Stroke="Black" Width="16"/>
         </Grid>
-        <TextBlock Height="53" Margin="65,8,8,90" Text="Please count all the shapes to make sure everything's here.  Thanks much!" TextWrapping="Wrap" FontSize="8"/>
-        <Path Data="M64.149869,33.222326 L55.741876,41.630319" Fill="#FFF4F4F5" Margin="56,33,88,107" Stretch="Fill" Stroke="Black"/>
     </Grid>
 </Window>
